@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\GitRepo\\Mockroo-DataGenUtil\\Mockroo-DataGenUtil\\Mockroo-DataGenUtil\\Mockroo-DataGenUtil.csproj": {}
+    "D:\\Projects\\GitRepo\\Mockroo-DataGenUtil\\Mockroo-DataGenUtil\\Mockroo-DataGenUtil.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\GitRepo\\Mockroo-DataGenUtil\\Mockroo-DataGenUtil\\Mockroo-DataGenUtil\\Mockroo-DataGenUtil.csproj": {
+    "D:\\Projects\\GitRepo\\Mockroo-DataGenUtil\\Mockroo-DataGenUtil\\Mockroo-DataGenUtil.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\GitRepo\\Mockroo-DataGenUtil\\Mockroo-DataGenUtil\\Mockroo-DataGenUtil\\Mockroo-DataGenUtil.csproj",
+        "projectUniqueName": "D:\\Projects\\GitRepo\\Mockroo-DataGenUtil\\Mockroo-DataGenUtil\\Mockroo-DataGenUtil.csproj",
         "projectName": "Mockroo-DataGenUtil",
-        "projectPath": "D:\\Projects\\GitRepo\\Mockroo-DataGenUtil\\Mockroo-DataGenUtil\\Mockroo-DataGenUtil\\Mockroo-DataGenUtil.csproj",
+        "projectPath": "D:\\Projects\\GitRepo\\Mockroo-DataGenUtil\\Mockroo-DataGenUtil\\Mockroo-DataGenUtil.csproj",
         "packagesPath": "C:\\Users\\Gokav\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\GitRepo\\Mockroo-DataGenUtil\\Mockroo-DataGenUtil\\Mockroo-DataGenUtil\\obj\\",
+        "outputPath": "D:\\Projects\\GitRepo\\Mockroo-DataGenUtil\\Mockroo-DataGenUtil\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -40,6 +40,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
