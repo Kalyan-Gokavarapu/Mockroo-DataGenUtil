@@ -48,9 +48,9 @@ namespace Mockroo_DataGenUtil
                         if (item.delimiter != string.Empty && item.delimiter.IndexOf(':') > 0)
                         {
                             strValue = item.delimiter.Split(":")[0] + ":" + idCounter.ToString();
+                            idCounter++;
                         }
-                        lineBuilder.Append(item.segment + strValue);
-                        idCounter++;
+                        lineBuilder.Append(item.segment + strValue);                        
                     }
                     // Build custom line - End
                     newFile.WriteLine(lineBuilder);
